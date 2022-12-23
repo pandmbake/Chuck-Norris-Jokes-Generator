@@ -24,15 +24,9 @@ const facts = [
   
 ];
 
-function getRandomFact() {
-    return facts[Math.floor(Math.random() * facts.length)];
-  }
+function getRandomFact(facts) {
+  return facts[Math.floor(Math.random() * facts.length)];
+}
 
-  function getFact() {
-    const element = document.getElementById('fact');
-    const randomFact = getRandomFact();
-    document.getElementById('fact').innerHTML = getRandomFact;
-  }
-
-  const button = document.getElementById('button');
-  button.addEventListener('click', getFact);
+const randomFact = getRandomFact(facts);
+document.getElementById('fact').innerHTML = 'randomFact';
