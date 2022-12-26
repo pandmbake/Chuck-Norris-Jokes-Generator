@@ -25,6 +25,8 @@ h1 {
     border-radius: 10px;
     box-shadow: 5px 5px;
     cursor: pointer;
+    color: black;
+    background-color: grey;
 
 }
 
@@ -40,4 +42,51 @@ h1 {
     border-radius: 10px;
     padding: 1.5em;
     
+}
+
+
+@media screen and (max-width: 850px) {
+    #fact {
+        width: 20em;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+    
+
+}
+
+@media screen and (max-width: 740px) {
+
+    #fact {
+        font-size: .8em;
+
+}
+
+}
+
+@media screen and (max-width: 580px) {
+
+    #fact {
+        width: 10em;
+        font-size: .8em;
+        height: 5em;
+    }
+
+    h1, h2 {
+        font-size: 1em;
+    }
+    
+    #chuck {
+        width: 10em;
+    }
+
+    #button {
+        height: 1.3em;
+        font-size: 1em;
+    }
+
+
+
 }

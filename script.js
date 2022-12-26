@@ -18,7 +18,6 @@ const facts = [
     "Chuck Norris can unscramble eggs.",
     "Chuck Norris and Superman once fought each other on a bet. The loser had to start wearing his underwear on the outside of his pants.",
     "When Batman is in trouble, he turns on the Chuck Norris signal.",
-    "Chuck Norris was once on Celebrity Wheel of Fortune and was the first to spin. The next 29 minutes of the show consisted of everyone standing around awkwardly, waiting for the wheel to stop.",
     "Latin insulted Chuck Norris. It is now a dead language.",
     "While vacationing in France, Chuck Norris went out for a casual bike ride and accidentally won the Tour de France.",
   
